@@ -1,0 +1,35 @@
+{
+	"name": "grand-media/dropzone",
+	"description": "GrandMedia Dropzone",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Grand Media s.r.o.",
+			"email": "vesely@grandmedia.cz",
+			"homepage": "https://www.grandmedia.cz"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/GrandMedia/Dropzone/issues"
+	},
+	"require": {
+		"php": ">=7.1",
+		"nette/application": "^2.4",
+		"nette/http": "^2.4",
+		"nette/forms": "^2.4"
+	},
+	"require-dev": {
+		"grand-media/coding-standard": "^1.0",
+		"nette/tester": "~1.7"
+	},
+	"autoload": {
+		"psr-4": {
+			"GrandMedia\\Dropzone\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"GrandMediaTests\\": "tests/"
+		}
+	}
+}
